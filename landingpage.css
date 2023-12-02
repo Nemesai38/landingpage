@@ -1,0 +1,315 @@
+html {
+    margin: 0;
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+div {
+    display: block;
+}
+
+#backgroundimg {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    filter: brightness(1.2);
+    z-index: -2;
+}
+
+.headerBar {
+    height: 100px;
+    background-image: linear-gradient(rgba(0, 17, 51, 0.9), rgba(0, 43, 128, 0.8));
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    position: sticky;
+    top: 0;
+    background-position-x: 0;
+    z-index: 1;
+}
+
+.headerIcon {
+    margin-left: 100px;
+}
+
+.headerLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-right: 200px;
+    width: 400px;
+    font-weight: bold;
+    font-size: 18px;
+    color: aliceblue;
+    transition: 0.5s;
+}
+
+.headerlink1 {
+    cursor: pointer;
+}
+
+.headerlink1:hover {
+    transform: scale(1.2);
+    box-shadow: 0 5px 10px 50x #f9faf8;
+}
+
+.layer1 {
+    position: relative;
+    top: 5em;
+    left: 5em;
+    z-index: 0;
+}
+
+.layer1Container {
+    width: 85%;
+    height: 100%;
+    border-radius: 1.5em;
+    display: flex;
+    flex-direction: row;
+    gap: 8em;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 2em rgb(69, 69, 69);
+    color: white;
+    padding: 1em;
+}
+
+.layer1left {
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    gap: 1em;
+    margin-left: 70px ;
+}
+
+.layer1leftheading {
+    font-size: 50px;
+    font-weight: 1000;
+
+}
+
+.layer1lefttext {
+    font-size: 21px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.signup {
+    width: 6em;
+    height: 2em;
+    margin-top: 10px;
+    font-size: 21px;
+    font-weight: bold;
+    font-style: italic;
+    color: #f9faf8;
+    background-image: linear-gradient(rgba(56, 130, 246, 0.5), rgba(206, 224, 253, 0.5));
+    border: cadetblue;
+    border-radius: 2em;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    box-shadow: 0 10px 30px black;
+}
+
+.layer1leftbutton a:hover {
+    transform: scale(1.2);
+    box-shadow: 0 5px 10px 5px #f9faf8;
+}
+
+.layer1right {
+    margin-right: 70px;
+}
+
+.layer2 {
+    background-image: linear-gradient(rgb(204, 204, 255), rgb(128, 128, 255));
+    margin-top: 10em;
+    z-index: 0;
+    width: 100%;
+}
+
+.layer2content {
+    padding: 30px;
+    color: #1f2937;
+}
+
+.layer2heading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 1000;
+    margin: 1em 1em 1.5em 1em;    
+}
+
+.layer2infocontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 2.5em;
+    flex-wrap: wrap;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    font-weight: 800;
+}
+
+.layer2infocontainer button {
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 6px solid grey;
+    box-shadow: 0 10px 30px black;
+}
+
+.layer2infocontainer button:hover {
+    transform: scale(1.2);
+    box-shadow: 0 10px 30ps 10px #00004d;
+}
+
+.infosr-71 {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+.infocarriers {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+.infof-16 {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+.infof-22 {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+.layer3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    color: black;
+    background-image: url("assets/fotos/lookjet.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 100px;
+    gap: 13em;
+    text-shadow: 0 0 1em black, 0 0 2em black;
+
+}
+
+.quote {
+    font-size: 40px;
+    font-style: italic;
+    height: 100px;
+    width: 900px;
+}
+
+.quoter {
+    font-size: 28px;
+    padding: 10px;
+    font-weight: 700;
+    margin-left: 550px;
+}
+
+.layer4bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgb(204, 204, 255), rgb(128, 128, 255));
+    height: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.layer4content {
+    display: flex;
+    flex-direction: row;
+    background-color: #3882f6;
+    color: antiquewhite;
+    width: 1100px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.layer4text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 550px;
+}
+
+.layer4textheading {
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.layer4textsubtext {
+    font-size: 19px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.layer4contactbutton {
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.contact {
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(rgba(143, 287, 255, 0.5), rgba(0, 51, 153, 0.5));
+    border: 3px solid white;
+    border-radius: 0.4em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    padding: 10px 30px;
+    transition: 0.4s;
+    box-shadow: 0 10px 30px black;
+}
+
+.layer4contactbutton a:hover {
+    transform: scale(2, 3);
+    box-shadow: 0 10px 30px aquamarine;
+}
+
+footer {
+    background-image: linear-gradient(rgb(5, 50, 122), rgb(2, 20, 49));
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    padding-top: 25px;
+    margin: 0;
+    height: 100px;
+}
