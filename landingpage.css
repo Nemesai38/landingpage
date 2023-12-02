@@ -1,6 +1,7 @@
 html {
     margin: 0;
     min-height: 100%;
+    max-width: 1500px;
 }
 
 body {
@@ -89,7 +90,7 @@ div {
 
 .layer1left {
     width: 40%;
-    height: 80%;
+    height: 60%;
     display: flex;
     flex-direction: column;
     gap: 1em;
@@ -106,6 +107,8 @@ div {
     font-size: 21px;
     font-style: italic;
     font-weight: 400;
+    line-height: 2.5rem;
+    text-align: justify;
 }
 
 .signup {
@@ -152,7 +155,6 @@ div {
 }
 
 .layer2heading {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     font-size: 40px;
     font-weight: 1000;
@@ -165,7 +167,6 @@ div {
     justify-content: space-around;
     margin: 0 2.5em;
     flex-wrap: wrap;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2em;
     font-weight: 800;
 }
@@ -249,7 +250,6 @@ div {
     justify-content: center;
     background-image: linear-gradient(rgb(204, 204, 255), rgb(128, 128, 255));
     height: 400px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .layer4content {
@@ -263,7 +263,6 @@ div {
 }
 
 .layer4text {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     flex-direction: column;
     margin-top: 50px;
@@ -294,7 +293,6 @@ div {
     background-image: linear-gradient(rgba(143, 287, 255, 0.5), rgba(0, 51, 153, 0.5));
     border: 3px solid white;
     border-radius: 0.4em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
     font-style: italic;
     font-weight: bold;
@@ -311,7 +309,6 @@ div {
 footer {
     background-image: linear-gradient(rgb(5, 50, 122), rgb(2, 20, 49));
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     font-style: italic;
     text-align: center;
